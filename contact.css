@@ -1,0 +1,99 @@
+/**
+ * Template Name: Personal
+ * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+ * Updated: Mar 05 2025 with Bootstrap v5.3.3
+ * Author: BootstrapMade.com
+ * License: https://bootstrapmade.com/license/
+ */
+
+/*--------------------------------------------------------------
+# Font & Color Variables
+--------------------------------------------------------------*/
+:root {
+  --background-color: #000000;
+  --default-color: #b0b0b0; /* Light gray for placeholder text */
+  --accent-color: #00cc00; /* Green for button */
+  --contrast-color: #ffffff; /* White for button text */
+}
+
+/* General Styling */
+body {
+  background-color: var(--background-color);
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  background-color: var(--background-color);
+  border: 1px solid #333333;
+  color: var(--contrast-color);
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.form-control::placeholder {
+  color: var(--default-color);
+  opacity: 1;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 5px rgba(0, 204, 0, 0.5);
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: hsla(12, 75%, 45%, 1);;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  a{
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.submit-btn:hover {
+  background-color: rgb(225, 58, 16);;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+h1{
+  color: white;
+}
